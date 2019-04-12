@@ -1,0 +1,476 @@
+/* nhpoint */
+.myCardList{width:980px; box-sizing:border-box; margin:auto; padding:70px 0 80px; border:1px solid #e1e1e1; background:#f5f5f5}
+.myCardList .registId{width:366px; margin:auto;}
+.myCardList .registId .inputId{overflow:hidden; margin-top:43px;}
+.myCardList .registId .inputId .input-area{float:left; width:271px; border-right:0; margin-bottom:0;}
+.myCardList .registId .inputId .confirmBt{width:95px; height:50px; float:left; background:#888;  color:#fff; text-align:center; line-height:49px}
+.myCardList .registId .rwTxt{font-size:15px; line-height:22px}
+.myCardList .registId .inputPw{overflow:hidden; margin-top:20px}
+.myCardList .registId .inputPw .input-area{margin-bottom:5px}
+.myCardList .registId .inputPw .input-area:last-child{margin-bottom:0;}
+.myCardList .registId .txt1{font-size:24px; color:#333; line-height:26px; padding-top:107px; margin-bottom:44px; background:url('/common/web/img/accredit_icon.png') no-repeat center 0; text-align:center; letter-spacing:-1px}
+.myCardList .registId .txt1.secret{font-size:23px; line-height:28px; background:url('/common/web/img/secret_icon.png') no-repeat center 0;}
+.myCardList .registId .txt1 span{ font-size:15px; color:#666; line-height:20px;}
+.myCardList .registId .txt1 span.orgTxt{font-size:23px; line-height:28px; }
+.myCardList .registId .input-area{width:100%; margin-bottom:5px}
+.myCardList .registId .confirmInput{width:100%; margin-bottom:5px;}
+.myCardList .registId .confirmInput .select-area{width:100%; margin-bottom:5px;}
+.myCardList .registId .confirmInput .phoneSelect .input-area{width:calc(100% - 92px);}
+.myCardList .registId .confirmInput .confirmDiv{position:relative; width:100%; margin-top:5px; display:none;}
+.myCardList .registId .confirmInput .confirmDiv .input-area{width:200px;}
+.myCardList .registId .alertTxt{display:none;}
+.myCardList .registId .alertTxt.showTxt{display:block;}
+.myCardList .registId .phoneSelect{display:inline-block; width:100%; vertical-align:middle;}
+.myCardList .registId .phoneSelect .select-area{float:left; width:92px; margin:0}
+.myCardList .registId .phoneSelect .select-area select{border-right:0}
+.myCardList .registId .phoneSelect .input-area{float:left; width:208px; height:50px; margin-bottom:0;}
+.myCardList .registId .phoneSelect .input-area input{border:0; box-sizing:border-box; width:100%; height:100%; text-align:left;}
+.myCardList .registId .cnDiv{margin-top:5px}
+.myCardList .registId .confirmDiv{width:300px; overflow:hidden; display:inline-block; vertical-align:middle; position:relative;}
+.myCardList .registId .confirmDiv .input-area{box-sizing:border-box; width:135px; height:50px; float:left; margin-bottom:0;}
+.myCardList .registId .confirmDiv .time{position:absolute; top:0; right:82px; display:block; width:85px; height:50px; line-height:50px; border:1px solid #e1e1e1; border-left:0; padding:0 10px; font-size:15px; color:#888;  background:#fff url("/common/web/img/confirm_time_icon.png") no-repeat right 10px center;}
+.myCardList .registId .sendBt{display:block; width:82px; height:50px; line-height:50px;  vertical-align:middle; color:#fff; background:#888; float:right; text-align:center;}
+.myCardList .registId .grayBt{width:180px; height:50px; box-sizing:border-box;  font-size:16px; border-radius:5px; padding-top:15px}
+.myCardList .registId .yellowBt{width:180px; height:50px; box-sizing:border-box;  font-size:16px; border-radius:5px; padding-top:15px}
+.myCardList .registId .underlineBt{display:block;  font-size:16px; color:#000; text-decoration:underline; margin-top:12px}
+.myCardList .registId .passPopBt{text-align:left;}
+
+.myNhmDiv{width:980px; margin:auto; padding:142px 0 0;}
+.myNhmDiv .txt1{font-size:20px; color:#222; text-align:center}
+.myNhmDiv .myPointNum{display:block; text-align:center; margin-top:24px; padding-left:30px}
+.myNhmDiv .myPointNum strong{ font-size:50px; color:#f15921; letter-spacing:-1px}
+.myNhmDiv .myPointNum span{ font-size:30px; color:#666; padding-right:36px;}
+.myNhmDiv .txt2{font-size:16px; color:#666; margin-top:18px; text-align:center}
+.myNhmDiv .txt2 strong{ color:#333; font-size:18px}
+.myNhmDiv .txt2 span{ font-size:18px; color:#666;}
+.myNhmDiv .pointType{width:100%; height:130px; border-bottom:1px solid #e1e1e1; background:url('/common/web/img/black_line.gif') no-repeat center center; overflow:hidden}
+.myNhmDiv .pointType > div{width:50%; height:130px; text-align:center; float:left; padding-top:35px;}
+.myNhmDiv .pointType > div .tit{font-size:20px; color:#222}
+.myNhmDiv .pointType > div .num{ font-size:20px; color:#666; margin-top:12px}
+.myNhmDiv .pointType > div .num strong{ color:#333;}
+.myNhmDiv .myPointInfo{width:100%; text-align:center; margin-top:60px; padding-top:60px; border-top:1px solid #e1e1e1;}
+.myNhmDiv .myPointInfo a{display:inline-block; width:130px; padding-top:147px; margin:0 48px}
+.myNhmDiv .myPointInfo a.card{background:url('/common/web/img/mynhp_cardicon.png') no-repeat center 0;}
+.myNhmDiv .myPointInfo a.event{background:url('/common/web/img/mynhp_eventicon.png') no-repeat center 0;}
+.myNhmDiv .myPointInfo a.coupon{background:url('/common/web/img/mynhp_couponicon.png') no-repeat center 0;}
+.myNhmDiv .myPointInfo a .txt{font-size:18px; color:#222;}
+.myNhmDiv .myPointInfo a .num{ font-size:20px; color:#23b8bc; margin-top:12px}
+.myPoint .top{width:100%; background:#f5f5f5; text-align:center; padding:60px 0 70px}
+.myPoint .top .inner{position:relative; width:840px;}
+.myPoint .top .missingInfo{position:absolute; top:0; right:0; padding:1px 0 4px 30px; background:url('/common/web/img/warn_icon1.png') no-repeat 0 center;  font-size:16px; color:#f15921;}
+.myPoint .top .txt1{font-size:20px; color:#222}
+.myPoint .top .txt2{ font-size:30px; color:#666; margin-top:24px}
+.myPoint .top .txt2 strong{ font-size:50px; color:#f15921}
+.myPoint .top .scheduleBt{ display:inline-block; padding-right:20px; font-size:16px; color:#666; margin-top:20px;}
+.myPoint .top .scheduleBt span{ color:#333; font-size:18px;}
+.myPoint .top .scheduleBt strong{ color:#666; font-size:18px;}
+.myPoint .top .myPointInfo{overflow:hidden; margin-top:40px; border-top:1px solid #ddd; padding-top:20px}
+.myPoint .top .myPointInfo li{float:left; font-size:20px; color:#222; width:50%; overflow:hidden; padding:0 20px; margin-top:20px;}
+.myPoint .top .myPointInfo li .txt{float:left;}
+.myPoint .top .myPointInfo li .txt.plusTxt{position:relative; padding-right:7px;}
+.myPoint .top .myPointInfo li .txt.plusTxt:after{content:"+"; display:block; position:absolute; top:-4px; right:0; font-size:14px}
+.myPoint .top .myPointInfo li .number{ font-size:20px; color:#666; float:right;}
+.myPoint .top .myPointInfo li strong{ color:#333;}
+.myPoint .top .myPointInfo li:nth-child(2n+1){background:url('/common/web/img/black_line.gif') no-repeat right center;}
+.myPoint .top .registArea{overflow:hidden; margin-top:40px; border-top:1px solid #ddd; padding-top:40px}
+.myPoint .top .registArea .txt{ font-size:16px; color:#222;}
+.myPoint .top .registArea > a{display:inline-block; width:240px; height:50px; padding:15px 0 0; margin-top:10px; text-align:center; background:#888; border-radius:25px;  color:#fff; font-size:18px}
+.myPoint .top .registArea > a span{padding:0 0 0 38px; background:url('/common/web/img/plus_icon.png') no-repeat 0 center;}
+.myPoint .bot{width:980px; margin:auto; padding:80px 0 0}
+.myPoint .bot .pointTit{font-size:24px; color:#222;  margin-bottom:55px; text-align:center;}
+.myPoint .curMyCard{overflow:hidden}
+.myPoint .curMyCard li{width:300px; height:527px; float:left; margin-right:40px; margin-bottom:80px}
+.myPoint .curMyCard li:nth-child(3n){margin-right:0px;}
+.myPoint .curMyCard li .card{text-align:center;}
+.myPoint .curMyCard li .txt1{font-size:20px; color:#333; margin-top:30px}
+.myPoint .curMyCard li .txt1 span{display:none; padding:0 10px; font-size:16px; color:#fff; background:#555; margin-left:10px; height:26px; line-height:25px; border-radius:13px;}
+.myPoint .curMyCard li .txt2{ font-size:16px; color:#333; margin-top:12px}
+.myPoint .curMyCard li .txt3{ font-size:15px; color:#888; margin-top:24px}
+.myPoint .curMyCard li .txt3 span{}
+.myPoint .curMyCard li .txt4{ margin-top:9px}
+.myPoint .curMyCard li .bts{text-align:center; margin-top:19px; width:100%; overflow:hidden;}
+.myPoint .curMyCard li .bts a{display:block; width:146px; height:40px; padding:10px 0 0; border:1px solid #e1e1e1; text-align:center; font-size:16px; color:#222; border-radius:5px; float:left;}
+.myPoint .curMyCard li .bts a:last-child{float:right}
+.myPoint .curMyCard li.loss .card{opacity:0.3;}
+.myPoint .curMyCard li.loss .txt1 span{display:inline-block;}
+
+.myPoint .recoCardDiv{overflow:hidden; border-top:1px solid #e1e1e1; padding:80px 0 0}
+.myPoint .recoCardDiv .tit{font-size:30px; color:#222}
+.myPoint .recoCardDiv .recoCardList{overflow:hidden; margin-top:30px}
+.myPoint .recoCardDiv .recoCardList a{display:block; float:left; width:510px; height:108px; margin-bottom:50px}
+.myPoint .recoCardDiv .recoCardList a:nth-child(2n){width:470px;}
+.myPoint .recoCardDiv .recoCardList a .img{width:170px; height:108px; overflow:hidden; float:left;}
+.myPoint .recoCardDiv .recoCardList a .txt{width:340px; height:108px; overflow:hidden; float:left; padding-left:25px}
+.myPoint .recoCardDiv .recoCardList a:nth-child(2n) .txt{width:300px;}
+.myPoint .recoCardDiv .recoCardList a .txt .txt1{font-size:18px; color:#333; line-height:26px}
+.myPoint .recoCardDiv .recoCardList a .txt .txt2{ font-size:15px; color:#666; line-height:20px; margin-top:9px}
+.myPoint .sch-no-data{margin:80px auto 0}
+
+.myEventList{overflow:hidden;}
+.myEventList div{position:relative; margin-top:80px; height:390px;}
+.myEventList div.end{opacity:0.6;}
+.myEventList div:nth-child(2n){float:right}
+.myEventList div:nth-child(2n-1){float:left;}
+.myEventList div:nth-child(1){margin-top:0}
+.myEventList div:nth-child(2){margin-top:0}
+.myEventList div a{display:block; width:470px; /*height:430px;*/ float:left; word-break:break-all}
+.myEventList div a.dDayArea{display:block; width:auto; height:auto; float:none;}
+.myEventList span.dDay{position:absolute; top:20px; left:0; width:150px; height:65px;  font-size:20px; color:#fff; background:url("/common/web/img/list_dday_bg.png") no-repeat 0 0; padding:16px 0 0 39px; z-index:1;}
+.myEventList span.winner{position:absolute; top:20px; left:0; width:150px; height:65px; font-size:18px; color:#fff; background:url("/common/web/img/list_winner_bg.png") no-repeat 0 0; padding:17px 0 0 20px; z-index:1;}
+.myEventList span.winner br{display:none;}
+.myEventList a .img{position:relative; width:470px; height:264px; overflow:hidden}
+.myEventList a .img img{width:100%}
+.myEventList a .hashtag{margin-top:10px}
+.myEventList a .hashtag span{display:inline-block; padding:4px 10px 6px; margin-top:5px; border:1px solid #000; border-radius:13px;  font-size:13px; color:#222;}
+.myEventList a .txt1{ font-size:26px; color:#222; line-height:34px; margin-top:21px}
+.myEventList a .txt2{ font-size:16px; color:#666; margin-top:15px}
+
+.myCouponList{overflow:hidden}
+.myCouponList a{display:block; width:470px; height:180px; float:left; background:url('/common/web/img/mycoupon_listbg.png') no-repeat 0 0; margin-top:40px; position:relative;}
+.myCouponList a:nth-child(1){margin-top:0}
+.myCouponList a:nth-child(2){margin-top:0}
+.myCouponList a:nth-child(2n){float:right;}
+.myCouponList a .img{display:block; width:120px; height:120px; float:left; border-radius:60px; margin:30px 33px}
+.myCouponList a .img img{width:100%;}
+.myCouponList a .txt{display:block; width:280px; height:120px; float:left; padding:24px 30px;}
+.myCouponList a .txt .txt1{font-size:16px; }
+.myCouponList a.green .txt .txt1{color:#1fb25a}
+.myCouponList a.orange .txt .txt1{color:#ea5404}
+.myCouponList a.blue .txt .txt1{color:#005bac}
+.myCouponList a .txt .txt2{font-size:20px; color:#000; line-height:28px; height:56px; margin-top:16px; overflow:hidden;text-overflow:ellipsis;line-height:1.5;height:3em;
+	word-wrap:break-word;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical; word-break:break-all;}
+.myCouponList a .txt .txt3{ font-size:16px; color:#666; margin-top:15px}
+.myCouponList a .ribbonIco{position:absolute; top:16px; left:16px;}
+
+.myInfoRevise{width:980px; margin:auto;}
+.myInfoRevise .writeType1 .rwTxt{margin-top:5px;}
+.myInfoRevise .blackBt{padding:12px 20px; background:#555; border-radius:20px; display:inline-block; color:#fff; font-size:16px;  margin-left:10px; line-height:1;}
+.myInfoRevise .borderDiv.type2 .blackBt{margin-left:0}
+.myInfoRevise .blackBt2{padding:12px 20px; background:#555; border-radius:20px; display:inline-block; color:#fff; font-size:16px;  line-height:1;}
+.myInfoRevise .reviseTit{margin:80px 0 20px; font-size:20px; color:#222;}
+.myInfoRevise .reviseTit:first-child{margin-top:0;}
+.myInfoRevise .reviseTit .requiredTxt{float:right; font-size:16px; }
+.myInfoRevise .reviseTit .requiredTxt span{color:#f15921;}
+.myInfoRevise .reviseTit .notiTxt{display:block; font-size:16px; color:#f15921; line-height:22px;  margin-top:7px;}
+.myInfoRevise .reviseTxt{font-size:16px; color:#666;  margin-bottom:20px;}
+.myInfoRevise .btn-area{margin-top:80px; text-align:center;}
+.myInfoRevise .borderDiv{padding:40px 0; border-top:2px solid #777; border-bottom:1px solid #666; text-align:center;}
+.myInfoRevise .borderDiv.type2{padding:16px 0 14px; background:#f9f9f9; margin-top:80px;}
+.myInfoRevise .snsList{overflow:hidden;}
+.myInfoRevise .snsList .name{font-size16px; color:#666;}
+.myInfoRevise .snsList .list{display:inline-block; margin-left:55px; padding-top:80px;}
+.myInfoRevise .snsList .list:first-child{margin-left:0;}
+.myInfoRevise .snsList .list.naverIco{background:url("/common/web/img/myinfo_sns_icon1.png") no-repeat center 0;}
+.myInfoRevise .snsList .list.faceIco{background:url("/common/web/img/myinfo_sns_icon2.png") no-repeat center 0;}
+.myInfoRevise .snsList .list.kakaoIco{background:url("/common/web/img/myinfo_sns_icon3.png") no-repeat center 0;}
+.myInfoRevise .snsList .blackBt{margin:20px 0 0 0;}
+.myInfoRevise .snsList .blackBt.on{background:#bbb;}
+.myInfoRevise .borderDiv .rwTxt{display:inline-block; margin-top:25px;}
+.myInfoRevise .checkDiv .check{display:inline-block; margin-right:26px;}
+.myInfoRevise .checkDiv .check:last-child{margin-right:0;}
+.myInfoRevise .leaveDiv{width:980px; border:1px solid #e1e1e1; background:#f5f5f5; padding:70px 70px 75px; text-align:center;}
+.myInfoRevise .leaveDiv > .txt{background:url('/common/web/img/leave_icon.png') no-repeat center 0; padding-top:107px; font-size:24px; color:#333; line-height:30px; padding-bottom:38px; border-bottom:1px solid #e1e1e1;}
+.myInfoRevise .leaveDiv > .txt span{}
+.myInfoRevise .leaveDiv > .txt2{font-size:16px; color:#666; line-height:26px;  margin-top:45px;}
+.myInfoRevise .leaveDiv .myPointInfo{overflow:hidden; margin-top:40px;}
+.myInfoRevise .leaveDiv .myPointInfo li{float:left; font-size:20px; color:#222; width:33.333%; position:relative;}
+.myInfoRevise .leaveDiv .myPointInfo li:after{content:""; display:block; width:1px; height:48px; background:#e1e1e1; position:absolute; top:50%; right:0; transform:translate(0,-50%);}
+.myInfoRevise .leaveDiv .myPointInfo li:last-child:after{display:none;}
+.myInfoRevise .leaveDiv .myPointInfo li .number{ font-size:20px; color:#666; margin-top:12px}
+.myInfoRevise .leaveDiv .myPointInfo li strong{ color:#f15921;}
+.myInfoRevise .noteDiv p{position:relative; font-size:16px; color:#666; line-height:26px;  padding-left:10px;}
+.myInfoRevise .noteDiv p:before{content:"쨌"; display:block; position:absolute; top:0; left:0;}
+.myInfoRevise .borderDiv .pointTxt{font-size:20px; color:#222;}
+.myInfoRevise .borderDiv .number{ font-size:20px; color:#666; margin-top:12px}
+.myInfoRevise .borderDiv strong{ color:#f15921;}
+.myInfoRevise .borderDiv .radioWrap .radioBox{display:inline-block;}
+.myInfoRevise .borderDiv .radioWrap .radioBox:nth-child(1){margin-right:25px;}
+.myInfoRevise .termsDiv .list .termsTxt{height:205px}
+.myInfoRevise .accountDiv{width:480px; margin:0 auto 30px;}
+.myInfoRevise .accountDiv .inputList{margin-bottom:5px;}
+.myInfoRevise .accountDiv .inputList .accountTit{font-size:18px; color:#222; display:inline-block; vertical-align:middle; width:113px; }
+.myInfoRevise .accountDiv .inputList .select-area{width:360px;}
+.myInfoRevise .accountDiv .inputList .input-area{width:360px;}
+.termsDiv .list .termsTxt2{display:block; padding:30px 10px 30px 30px; border-top:1px solid #e1e1e1; background:#f9f9f9; font-size:16px; text-align:left; line-height:26px; color:#666; }
+.termsDiv .list .termsTxt2 .noteDiv{margin-bottom:30px;}
+.accTerms{margin-top:30px;}
+
+/* common */
+@media all and (max-width:1200px){
+	
+}
+
+@media all and (max-width:1000px){
+
+	.myCardList{width:100%; padding:70px 0 80px; border:none;}
+	.myCardList .registId{width:auto; margin:0 3%;}
+	.myCardList .registId .inputId{overflow:hidden; margin-top:43px;}
+	.myCardList .registId .inputId .input-area{width:calc(100% - 78px);}
+	.myCardList .registId .inputId .confirmBt{width:78px; height:50px; }
+	.myCardList .registId .inputPw{overflow:hidden; margin-top:20px}
+	.myCardList .registId .inputPw .input-area{margin-bottom:10px}
+	.myCardList .btnBox .myCardList .yellowBt.w100{width:100%;}
+	.myCardList .registId .txt1{margin-bottom:44px;}
+	.myCardList .registId .txt1 span{ color:#666;}
+	.myCardList .registId .input-area{width:100%; margin-bottom:10px}
+	.myCardList .registId .confirmInput .select-area.type3{width:100%; margin-bottom:10px;}
+	.myCardList .registId .confirmInput .phoneSelect .input-area{width:calc(100% - 92px);}
+	.myCardList .registId .confirmInput .confirmDiv{position:relative; width:100%; margin-top:5px; display:none;}
+	.myCardList .registId .confirmInput .confirmDiv .input-area{width:calc(100% - 151px);}
+	.myCardList .registId .confirmInput .confirmDiv .time{right:70px; width:82px; padding:0 28px 0 10px; background-size:13px 13px;}
+	.myCardList .registId .confirmInput .sendBt{width:70px; }
+	.myCardList .registId .phoneSelect{width:100%;}
+	.myCardList .registId .phoneSelect .select-area{width:92px;}
+	.myCardList .registId .underlineBt{margin-top:12px}
+	.myCardList .registId .rwTxt.noBr br{display:none;}
+
+	.myNhmDiv{width:100%; margin:auto; padding:40px 3% 60px; background:#fff;}
+	.myNhmDiv .txt1{color:#222;}
+	.myNhmDiv .myPointNum{margin-top:10px; padding-left:0}
+	.myNhmDiv .myPointNum strong{}
+	.myNhmDiv .myPointNum span{ color:#333; padding-right:20px; background-size:8px 14px;}
+	.myNhmDiv .txt2{margin-top:10px;}
+	.myNhmDiv .pointType{height:auto; padding-bottom:27px; border-bottom:1px solid #e8e8e8;}
+	.myNhmDiv .pointType > div{width:50%; height:100%; padding-top:25px;}
+	.myNhmDiv .pointType > div .tit{color:#222}
+	.myNhmDiv .pointType > div .num{margin-top:8px}
+	.myNhmDiv .pointType > div .num strong{}
+	.myNhmDiv .myPointInfo{margin-top:40px; overflow:hidden;}
+	.myNhmDiv .myPointInfo a{width:33%; float:left; margin:0;}
+	.myNhmDiv .myPointInfo a.card{width:34%;}
+	.myNhmDiv .myPointInfo a .txt{color:#222;}
+	.myNhmDiv .myPointInfo a .num{margin-top:8px}
+
+	.myPoint .top{width:100%; background:#f5f5f5; text-align:center; padding:60px 0 50px}
+	.myPoint .top .inner{width:100%; padding:0 3%;}
+	.myPoint .top .missingInfo{top:95px; right:50%; transform:translate(50%, 0); padding:1px 0 4px 20px; background-size:15px;}
+	.myPoint .top .txt2{margin-top:15px}
+	.myPoint .top .txt3{margin-top:10px;}
+	.myPoint .top .registArea{margin-top:60px; padding-top:40px}
+	.myPoint .top .registArea .txt{ color:#222;}
+	.myPoint .top .registArea > a{height:40px; padding:13px 0 0; margin-top:10px; border-radius:20px;}
+	.myPoint .top .registArea > a span{padding:0 0 0 28px; background-size:18px;}
+
+	.myPoint .bot{width:100%; margin:auto; padding:30px 3% 0;}
+	.myPoint .curMyCard{overflow:hidden}
+	.myPoint .curMyCard li{width:50%; float:left; margin:0 auto 80px; padding:0 3%;}
+	.myPoint .curMyCard li:nth-child(3n){margin-right:auto;}
+	.myPoint .curMyCard li .card img{height:100%;}
+	.myPoint .curMyCard li .txt1{margin-top:16px}
+	.myPoint .curMyCard li .txt2{margin-top:10px}
+	.myPoint .curMyCard li .txt3{ color:#888; margin-top:24px}
+	.myPoint .curMyCard li .txt3 span{}
+	.myPoint .curMyCard li .txt4{margin-top:9px}
+	.myPoint .curMyCard li .bts{text-align:center; margin-top:19px; width:100%; overflow:hidden;}
+	.myPoint .curMyCard li .bts a{width:48%; height:40px; border:1px solid #e8e8e8;}
+	
+	.myPoint .recoCardDiv{border-top:1px solid #e8e8e8; padding:40px 0 0}
+	.myPoint .recoCardDiv .recoCardList{margin-top:20px}
+	.myPoint .recoCardDiv .recoCardList a{ float:left; width:100%; margin-bottom:30px}
+	.myPoint .recoCardDiv .recoCardList a:nth-child(2n){width:100%;}
+	.myPoint .recoCardDiv .recoCardList a .img{width:170px;}
+	.myPoint .recoCardDiv .recoCardList a .img img{width:100%;}
+	.myPoint .recoCardDiv .recoCardList a .txt{width:50%; padding-left:15px}
+	.myPoint .recoCardDiv .recoCardList a:nth-child(2n) .txt{width:50%;}
+	.myPoint .recoCardDiv .recoCardList a .txt .txt1{word-break:break-all;}
+	.myPoint .sch-no-data{width:auto; margin:40px 3% 0;}	
+
+	.myEventList div{width:100%; height:auto; float:none; overflow:hidden;}
+	.myEventList div:nth-child(2n){float:none; margin-top:80px;}
+	.myEventList div:nth-child(2n-1){float:none;}
+	.myEventList div a{width:100%;}
+	.myEventList a .img{width:100%; height:auto;}
+	.myEventList a .img img{width:100%}
+
+	.myCouponList a{float:left; display:table; width:49%; height:auto; padding:30px 3%; background-size:100% 100%;}
+	.myCouponList a .img{display:table-cell; vertical-align:middle; width:30%; height:auto; float:none; border-radius:60px;}
+	.myCouponList a .img img{width:100%;}
+	.myCouponList a .txt{float:none; display:table-cell; vertical-align:middle; width:65%; height:auto; padding:0 0 0 15%;}
+	.myCouponList a .txt .txt1{font-size:14px;}
+	.myCouponList a .txt .txt2{font-size:16px; line-height:24px;}
+	.myCouponList a .txt .txt3{font-size:14px;}	
+
+	.myInfoRevise{width:auto; margin:0 5%;}
+	.myInfoRevise .writeType1 ul li{width:100%;}
+	.myInfoRevise .writeType1 ul li .right{width:auto;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .input-area:last-child{margin-top:10px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .confirmInput .select-area.telCom{width:100%; margin-bottom:5px;}
+
+	.myInfoRevise .noteDiv p{margin-bottom:5px;}
+
+	.myInfoRevise .leaveDiv{width:100%; padding:70px 40px 75px;}
+	.myInfoRevise .leaveDiv > .txt{background:url('/common/web/img/leave_icon.png') no-repeat center 0; padding-top:107px; font-size:24px; color:#333; line-height:30px; padding-bottom:38px; border-bottom:1px solid #e1e1e1;}
+	.myInfoRevise .leaveDiv > .txt span{}
+	.myInfoRevise .leaveDiv > .txt2{font-size:16px; color:#666; line-height:26px;  margin-top:45px;}
+	.myInfoRevise .leaveDiv > .txt2 br{display:none;}
+	.myInfoRevise .leaveDiv .myPointInfo{overflow:hidden; margin-top:40px;}
+}
+
+@media all and (max-width:758px){
+
+	.termsDiv .list .termsTxt2{padding:18px 3%; font-size:16px; line-height:26px;}
+	.termsDiv .list .termsTxt2 .noteDiv{margin-bottom:10px;}
+	.accTerms{margin-top:30px;}
+
+	.myPoint .curMyCard li{width:300px; height:485px; float:none; margin:0 auto 50px; padding:0;}
+	.myPoint .curMyCard li .card img{width:auto;}
+	.myPoint .curMyCard li .bts a{width:146px;}
+
+	.myCardList{padding:40px 0;}
+	.myCardList .registId .inputId .confirmBt{font-size:14px;}
+	.myCardList .registId .rwTxt{font-size:13px; line-height:18px}
+	.myCardList .btnBox .grayBt, .myCardList .btnBox .yellowBt{padding:0; width:49%; height:40px; font-size:15px; line-height:40px;}
+	.myCardList .registId .txt1{font-size:15px; line-height:22px;}
+	.myCardList .registId .txt1.secret{font-size:15px; line-height:22px}
+	.myCardList .registId .txt1.secret.noBr br{display:none;}
+	.myCardList .registId .txt1 span{font-size:15px;}
+	.myCardList .registId .txt1 span.noBr br{display:none;}
+	.myCardList .registId .underlineBt{font-size:15px;}
+	.myCardList .registId .grayBt, .myCardList .registId .yellowBt{height:50px; padding:0; line-height:49px;}
+	.myCardList .registId .phoneSelect .select-area{width:67px;}
+	.myCardList .registId .confirmInput .phoneSelect .input-area{width:calc(100% - 67px);}
+
+	.myNhmDiv .txt1{font-size:16px;}
+	.myNhmDiv .myPointNum strong{font-size:35px;}
+	.myNhmDiv .myPointNum span{font-size:20px;}
+	.myNhmDiv .txt2{font-size:12px;}
+	.myNhmDiv .txt2 strong{font-size:13px}
+	.myNhmDiv .txt2 span{font-size:13px;}
+	.myNhmDiv .pointType > div .tit{font-size:16px;}
+	.myNhmDiv .pointType > div .num{font-size:16px;}
+	.myNhmDiv .myPointInfo a{padding-top:80px;}
+	.myNhmDiv .myPointInfo a .txt{font-size:15px;}
+	.myNhmDiv .myPointInfo a .num{font-size:16px;}
+	.myNhmDiv .myPointInfo a.card, .myNhmDiv .myPointInfo a.event, .myNhmDiv .myPointInfo a.coupon{background-size:65px;}
+	.myPoint .top .missingInfo{top:75px; font-size:12px;}
+	.myPoint .top .txt1{font-size:15px;}
+	.myPoint .top .txt2{font-size:20px;}
+	.myPoint .top .txt2 strong{font-size:35px;}
+	.myPoint .top .scheduleBt{background-size:8px; padding-right:15px; font-size:14px; margin-top:10px;}
+	.myPoint .top .scheduleBt .number{margin-top:5px; font-size:17px;}
+	.myPoint .top .myPointInfo{margin-top:30px;}
+	.myPoint .top .myPointInfo li{float:none; width:100%; padding:0 3%; margin-top:10px;}
+	.myPoint .top .myPointInfo li:nth-child(2n+1){background:none;}
+	.myPoint .top .myPointInfo li .txt{font-size:14px;}
+	.myPoint .top .myPointInfo li .number{font-size:17px;}
+	.myPoint .top .registArea .txt{font-size:14px;}
+	.myPoint .top .registArea > a{font-size:15px}
+	
+	.myPoint .bot .pointTit{font-size:18px; margin-bottom:30px;}
+	.myPoint .curMyCard li .txt1{font-size:15px;}
+	.myPoint .curMyCard li .txt2{font-size:15px;}
+	.myPoint .curMyCard li .txt1 span{padding:0 10px; font-size:14px; height:20px; line-height:19px; border-radius:10px;}
+	.myPoint .curMyCard li .txt3{font-size:15px;}
+	.myPoint .curMyCard li .txt4{font-size:15px;}
+	
+	.myPoint .recoCardDiv .tit{font-size:17px;}
+	.myPoint .recoCardDiv .recoCardList a .txt{width:60%;}
+	.myPoint .recoCardDiv .recoCardList a:nth-child(2n) .txt{width:60%;}
+	.myPoint .recoCardDiv .recoCardList a .txt .txt1{font-size:15px; line-height:20px;}
+	.myPoint .recoCardDiv .recoCardList a .txt .txt2{font-size:13px; line-height:18px;}
+	.myPoint .recoCardDiv .recoCardList a .img{width:35%;}
+
+	.myEventList div{margin-bottom:40px;}
+	.myEventList div:nth-child(2n){margin-top:0;}
+	.myEventList div:last-child{margin-bottom:0;}
+	.myEventList span.dDay{top:15px; left:0; width:90px; height:30px; font-size:14px; background:url("/common/web/img/m_list_dday_bg.png") no-repeat 0 0; background-size:90px; padding:6px 0 0 23px;}
+	.myEventList span.winner{top:15px; left:0; width:90px; height:30px; font-size:12px;  background:url("/common/web/img/m_list_winner_bg.png") no-repeat 0 0; background-size:90px; padding:6px 0 0 10px;}
+	.myEventList a .hashtag span{font-size:12px;}
+	.myEventList a .txt1{font-size:17px; line-height:24px; margin-top:15px}
+	.myEventList a .txt2{font-size:14px; margin-top:5px}
+
+	.myCouponList a{width:100%; padding:20px 5%; margin-top:10px;}
+	.myCouponList a:nth-child(2){margin-top:10px;}
+	.myCouponList a .txt{padding:0 0 0 14%;}
+	.myCouponList a .txt .txt1{font-size:12px;}
+	.myCouponList a .txt .txt2{font-size:13px; line-height:18px;}
+	.myCouponList a .txt .txt3{font-size:12px; margin-top:10px;}	
+	.myCouponList a .ribbonIco{width:16px}
+	.myCouponList a .ribbonIco img{width:100%;}
+
+	.myInfoRevise{margin:0 3%;}
+	.myInfoRevise .blackBt{padding:0 15px; height:30px; border-radius:15px; font-size:13px; line-height:29px;}
+	.myInfoRevise .blackBt2{padding:0 15px; height:30px; border-radius:15px; font-size:13px; line-height:29px; margin-left:0;}
+	.myInfoRevise .reviseTit{margin:40px 0 10px; font-size:17px;}
+	.myInfoRevise .reviseTit .notiTxt{font-size:13px; line-height:18px;}
+	.myInfoRevise .reviseTit:first-child{margin-top:0;}
+	.myInfoRevise .reviseTit .requiredTxt{font-size:13px;}
+	.myInfoRevise .reviseTxt{font-size:14px; line-height:20px;}
+	.myInfoRevise .btn-area{margin-top:50px;}
+	.myInfoRevise .borderDiv{padding:20px 0; text-align:left; overflow:hidden;}
+	.myInfoRevise .borderDiv.type2{padding:16px 0 14px; margin-top:60px; text-align:center;}
+	.myInfoRevise .snsList{overflow:hidden; font-size:15px; text-align:center;}
+	.myInfoRevise .snsList .name{font-size:16px;}
+	.myInfoRevise .snsList .list{margin-left:20px; padding-top:70px;}
+	.myInfoRevise .snsList .list.naverIco{background-size:60px;}
+	.myInfoRevise .snsList .list.faceIco{background-size:60px;}
+	.myInfoRevise .snsList .list.kakaoIco{background-size:60px;}
+	.myInfoRevise .snsList .blackBt{margin:10px 0 0 0;}	
+	.myInfoRevise .borderDiv .rwTxt{margin-top:20px;}
+	.myInfoRevise .rwTxt br{display:none;}
+	.myInfoRevise .checkDiv .check{margin-right:26px;}
+
+	.myInfoRevise .leaveDiv{padding:40px 15px;}
+	.myInfoRevise .leaveDiv > .txt{padding-top:95px; font-size:15px; line-height:22px; padding-bottom:20px; background-size:80px;}
+	.myInfoRevise .leaveDiv > .txt span{}
+	.myInfoRevise .leaveDiv > .txt2{font-size:14px; line-height:21px; margin-top:30px;}
+	.myInfoRevise .leaveDiv > .txt2 br{display:none;}
+	.myInfoRevise .leaveDiv .myPointInfo{margin-top:20px;}
+	.myInfoRevise .leaveDiv .myPointInfo li{font-size:13px; float:none; width:100%; overflow:hidden; margin-bottom:12px;}
+	.myInfoRevise .leaveDiv .myPointInfo li:last-child{margin-bottom:0;}
+	.myInfoRevise .leaveDiv .myPointInfo li:after{display:none;}
+	.myInfoRevise .leaveDiv .myPointInfo li .txt{float:left;}
+	.myInfoRevise .leaveDiv .myPointInfo li .number{font-size:14px; float:right; margin-top:0;}
+
+	.myInfoRevise .noteDiv p{font-size:14px; line-height:21px; padding-left:10px;}
+	.myInfoRevise .borderDiv .pointTxt{float:left; font-size:15px;}
+	.myInfoRevise .borderDiv .number{float:right; font-size:15px; margin-top:0;}
+	.myInfoRevise .termsDiv .list .termsTxt{height:205px}
+	.myInfoRevise .accountDiv{width:100%;}
+	.myInfoRevise .accountDiv .inputList{margin-bottom:5px;}
+	.myInfoRevise .accountDiv .inputList .accountTit{margin-bottom:5px; font-size:15px; line-height:15px;}
+	.myInfoRevise .accountDiv .inputList .select-area{width:100%;}
+	.myInfoRevise .accountDiv .inputList .input-area{width:100%;}
+
+	/* �뺣낫�섏젙 writeType */
+	.myInfoRevise .writeType1 ul li .left{display:block; width:100%; padding:15px 10px;}
+	.myInfoRevise .writeType1 ul li .left .tit{font-size:15px; line-height:20px;}
+	.myInfoRevise .writeType1 ul li .left .tit.star br{display:none;}
+	.myInfoRevise .writeType1 ul li .right{display:block; width:100%; padding:15px 10px;}
+	.myInfoRevise .writeType1 ul li .right .txt{font-size:15px;}
+	.myInfoRevise .writeType1 ul li .right.inputArea{padding:15px 10px;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .select-area{width:360px;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .select-area.type2{width:100%;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .input-area{width:100%;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .text-area{width:100%; height:400px;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .input-area{width:46%;}	
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .input-area:first-child{float:left;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .input-area:last-child{width:100%;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .mailTxt{float:left; display:inline-block; width:8%; padding-top:14px; margin:0; text-align:center;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .mailInput .select-area.type2{float:right; width:46%; margin:0;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .addSrch .addSrchBt{float:left; width:98px;}
+	.myInfoRevise .writeType1 ul li .right.inputArea .addSrch .input-area{width:calc(100% - 98px);}
+	.myInfoRevise .writeType1 ul li .right.inputArea .addSrch+.input-area{margin:0 0 10px 0;}
+	.myInfoRevise .writeType1 ul li .right .grayBt{clear:both; float:none; margin-bottom:10px; width:100%; padding:0; font-size:16px; text-align:center; line-height:49px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .nameDiv{margin:20px 0 10px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .nameDiv a{width:135px; height:50px; padding-left:46px; border-radius:25px; line-height:47px; font-size:15px; background-size:auto 25px; background-position:17px center;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .nameDiv a:first-child{margin-right:2%;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .confirmInput{margin:10px 0 0;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .select-area{width:100%; margin-bottom:10px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .phoneSelect{display:inline-block; width:100%; vertical-align:middle;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .phoneSelect .select-area{margin-right:0; width:70px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .phoneSelect .input-area{width:calc(100% - 70px);}
+	.myInfoRevise .writeType1 ul li .right .changeBox .phoneSelect .grayBt{width:100%; border-radius:5px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .confirmDiv{width:100%;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .confirmDiv .input-area{width:calc(100% - 95px);}
+	.myInfoRevise .writeType1 ul li .right .changeBox .confirmDiv .time{position:absolute; top:0; right:0; display:block; width:96px; height:50px; line-height:50px; border:1px solid #e1e1e1; border-left:0; padding:0 0 0 10px; font-size:15px; color:#888;  background:#fff url("/common/web/img/confirm_time_icon.png") no-repeat right 20px center;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .blackBt{border-radius:5px; width:100%; height:50px; padding:0; font-size:16px; text-align:center; line-height:49px;}
+	.myInfoRevise .writeType1 ul li .right .changeBox .passDiv{margin-top:10px;} 
+	.myInfoRevise .writeType1 ul li .right .changeBox .passDiv .input-area{width:100%; margin-bottom:5px;}
+	.myInfoRevise .writeType1 ul li .right .radioBox{margin-right:25px;}
+	
+}
+
+@media all and (max-width:450px){
+	
+}
