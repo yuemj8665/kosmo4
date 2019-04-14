@@ -1,0 +1,27 @@
+/*-----------푸터 -----------*/
+@media (min-width: 768px)
+.site-footer {
+    padding: 8em 0;
+}
+.site-footer {
+    padding: 4em 0;
+    background: #333333;
+}
+.site-footer a {
+    color: #999999;
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+.site-footer p {
+    color: #8080c0;
+}

@@ -1,0 +1,535 @@
+/*-----------로그인 페이지 -----------*/
+/*-----------공용?-----------*/
+div, p, span, li, a, button {
+    box-sizing: border-box;
+}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    font-family: 'NotoSans-Regular', 'Montserrat-Light', 'Malgun Gothic', sans-serif;
+    font-size: 16px;
+    color: #666;
+    letter-spacing: 0px;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    line-height: 1;
+    font-weight: normal;
+}
+img, fieldset {
+    border: none;
+    vertical-align: top;
+}
+.input-area {
+    display: inline-block;
+    width: 360px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    vertical-align: middle;
+    background: #fff;
+    position: relative;
+    text-align: left;
+}
+
+input[type="text"] {
+    background: #fff;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+:placeholder-shown {
+    color: #999;
+}
+input {
+    padding: 3px 10px;
+    height: 32px;
+}
+input, select {
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    font-family: 'NotoSans-Light', '맑은 고딕', 'Malgun Gothic', sans-serif;
+    color: #222;
+    letter-spacing: 0px;
+    border-radius: 0;
+    font-size: 16px;
+}
+input[type="password"] {
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    color: #999;
+    background: #fff;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    border: 0;
+    padding: 0;
+    height: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+}
+.yellowBt {
+    display: inline-block;
+    background: #23b8bc;
+    color: #fff;
+    text-align: center;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    overflow: visible;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: '맑은 고딕';
+}
+textarea, button {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+select {
+    padding: 0 20px 0 10px;
+    width: 100%;
+    height: 50px;
+    font-family: "NotoSans-Light";
+    color: #666;
+    text-align: left;
+    border: 1px solid #e1e1e1;
+    appearance: none;
+}
+option {
+    padding: 3px 10px;
+}
+ul, ol, li {
+    list-style: none;
+}
+.input-area input {
+    border: 0;
+    box-sizing: border-box;
+    width: 87%;
+    height: 100%;
+}
+
+
+
+/*-----------로그인 관련-----------------------------------------------------------------------------------------------------*/
+.loginPage {
+    padding: 70px 121px 80px;
+}
+.joinDiv {
+    width: 980px;
+    margin: auto;
+    border: 1px solid #e1e1e1;
+    background: #f5f5f5;
+    padding: 133px 121px 100px;
+    position: relative;
+}
+.joinDiv .joinTit {
+    font-size: 24px;
+    color: #333;
+    line-height: 30px;
+    margin-bottom: 47px;
+    text-align: center;
+}
+.joinDiv .joinTit span {
+    display: block;
+    font-size: 16px;
+    color: #f15921;
+    line-height: 22px;
+    margin-top: 7px;
+}
+.joinDiv .loginDiv {
+    width: 366px;
+    margin: auto;
+}
+.joinDiv .loginDiv .input-area {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.joinDiv .input-area {
+    width: 366px;
+}
+.joinDiv .loginDiv .check {
+    margin: 15px 0 19px;
+}
+.joinDiv .loginDiv .check label {
+    color: #999;
+}
+.joinDiv .loginDiv .btnBox {
+    margin-top: 15px;
+}
+.joinDiv .btnBox {
+    text-align: center;
+    margin-top: 38px;
+}
+.joinDiv .btnBox .yellowBt {
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.joinDiv #btnLogin {
+    padding-top: 0px;
+}
+
+.joinDiv .loginDiv .findArea {
+    text-align: center;
+    margin: 20px 0 34px;
+}
+.joinDiv .loginDiv .findArea a {
+    display: inline-block;
+    color: #999;
+    font-size: 16px;
+    position: relative;
+    padding-right: 9px;
+    margin-right: 5px;
+}
+.joinDiv .loginDiv .findArea a:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 15px;
+    background: #c7c7c7;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.joinDiv .loginDiv .findArea a:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+.joinDiv .loginDiv .findArea a:last-child:after {
+    display: none;
+}
+
+
+/*-----------회원가입 관련-------------------------------------------------------------------------------------------*/
+#wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#container {
+    padding-top: 30px;
+    outline: none;
+}
+.pathDiv {
+    position: relative;
+    margin: 0 auto 80px;
+    width: 980px;
+}
+.pathDiv:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.memberJoin .pathDiv .sub-tit {
+    margin: 56px 0 80px;
+}
+h2.sub-tit {
+    font-family: "NotoSans-Light";
+    font-size: 45px;
+    color: #222;
+    text-align: center;
+    letter-spacing: -0.4px;
+    margin: 42px 0 0;
+}
+.joinDiv .joinTit2 {
+    font-size: 20px;
+    color: #222;
+    margin: 50px 0 20px;
+}
+.joinDiv .idInput {
+    overflow: hidden;
+}
+.joinDiv .idInput .input-area {
+    float: left;
+}
+.joinDiv .input-area.type2 {
+    width: 271px;
+    border-right: 0;
+}
+.joinDiv .idInput .confirmBt {
+    float: left;
+}
+.joinDiv .confirmBt {
+    display: inline-block;
+    width: 95px;
+    height: 50px;
+    line-height: 47px;
+    font-size: 16px;
+    vertical-align: middle;
+    border: 1px solid #888;
+    color: #fff;
+    background: #888;
+    text-align: center;
+}
+.joinDiv .rwTxt {
+    margin-top: 5px;
+}
+.rwTxt {
+    position: relative;
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 22px;
+}
+.rwTxt span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.joinDiv .passInput {
+    margin-top: 20px;
+}
+.joinDiv .mailInput {
+    margin-top: 20px;
+}
+.mailInput .mailTxt {
+    margin: 0 6px;
+}
+.mailInput .select-area {
+    width: 181px;
+    margin-right: 0;
+}
+.select-area {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "NotoSans-Light";
+    margin-right: 2px;
+}
+.teldiv {
+	margin-top: 20px;
+}
+.joinDiv .addInput {
+    margin-top: 20px;
+    width: 100%;
+}
+.joinDiv .addInput .input-area.type2 {
+    float: left;
+}
+.joinDiv .addInput .input-area {
+    float: right;
+}
+.joinDiv .addInput .input-area input {
+    width: 100%;
+}
+.joinDiv .addInput .confirmBt {
+    float: left;
+}
+.joinDiv .input-area.type5 {
+    width: 736px;
+    margin-top: 5px;
+}
+.joinDiv .btnBox .grayBt {
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.grayBt {
+    display: inline-block;
+    background: #888;
+    color: #fff;
+    text-align: center;
+}
+
+/*-----------마이페이지 1-------------------------------------------------------------------------------------------*/
+.myCardList {
+    width: 980px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 70px 0 80px;
+    border: 1px solid #e1e1e1;
+    background: #f5f5f5;
+}
+.myCardList .registId {
+    width: 366px;
+    margin: auto;
+}
+.myCardList .registId .txt1.secret {
+    font-size: 23px;
+    line-height: 28px;
+    background: url(/common/web/img/secret_icon.png) no-repeat center 0;
+}
+.myCardList .registId .txt1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 26px;
+    padding-top: 107px;
+    margin-bottom: 44px;
+    background: url(/common/web/img/accredit_icon.png) no-repeat center 0;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.myCardList .registId .input-area {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.taC {
+    text-align: center !important;
+}
+.mt10 {
+    margin-top: 10px !important;
+}
+.myCardList .registId .yellowBt {
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+/*-----------마이페이지 2-------------------------------------------------------------------------------------------*/
+.myInfoRevise {
+    width: 980px;
+    margin: auto;
+}
+.myInfoRevise .reviseTit:first-child {
+    margin-top: 0;
+}
+.myInfoRevise .reviseTit {
+    margin: 80px 0 20px;
+    font-size: 20px;
+    color: #222;
+}
+.myInfoRevise .reviseTit .requiredTxt {
+    float: right;
+    font-size: 16px;
+}
+.myInfoRevise .reviseTit .requiredTxt span {
+    color: #f15921;
+}
+.writeType1 {
+    border-top: 2px solid #777;
+    width: 980px;
+    margin: auto;
+}
+.writeType1 ul li {
+    border-bottom: 1px solid #e1e1e1;
+    display: table;
+}
+.writeType1 ul li .left {
+    display: table-cell;
+    vertical-align: middle;
+    width: 150px;
+    padding: 22px 0 22px 30px;
+    background: #f9f9f9;
+}
+.writeType1 ul li .left .tit.star {
+    position: relative;
+    padding-right: 11px;
+    display: inline-block;
+}
+.writeType1 ul li .left .tit {
+    font-size: 18px;
+    color: #222;
+    line-height: 28px;
+}
+.writeType1 ul li .left .tit.star:after {
+    display: block;
+    content: "*";
+    color: #f15921;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+.writeType1 ul li .right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 830px;
+    padding: 22px 20px;
+    background: #fff;
+}
+.writeType1 ul li .right .txt {
+    font-size: 16px;
+    color: #666;
+    font-family: 'NotoSans-Light', '맑은 고딕', 'Malgun Gothic', sans-serif;
+}
+.writeType1 ul li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.myInfoRevise .blackBt {
+    padding: 12px 20px;
+    background: #555;
+    border-radius: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1;
+}
+.myInfoRevise .blackBt2 {
+    padding: 12px 20px;
+    background: #555;
+    border-radius: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+}
+.writeType1 ul li .right .radioBox {
+    display: inline-block;
+    margin-right: 25px;
+}
+.radioBox {
+    text-align: left;
+}
+.radioBox label {
+    font-size: 16px;
+    color: #666;
+    vertical-align: middle;
+}
+.writeType1 ul li .right.inputArea {
+    padding: 10px 20px;
+}
+.writeType1 ul li .right .grayBt {
+    display: block;
+    float: left;
+    padding: 17px 20px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "NotoSans-Bold";
+}
+.writeType1 ul li .right.inputArea .addSrch .input-area {
+    width: 85px;
+}
+.writeType1 ul li .right.inputArea .input-area {
+    width: 100%;
+}
+.writeType1 ul li .right.inputArea .addSrch+.input-area {
+    margin: 5px 0;
+}
+
+
+
+

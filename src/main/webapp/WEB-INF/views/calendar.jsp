@@ -24,8 +24,8 @@ thead td {
 </style>
 
 	 <script src="Bootstrap/js/stringBuffer.js"></script>
-	 <script  src="Bootstrap/js/calendar.js"></script>
-	 <script  src="Bootstrap/js/calendarSchdule.js"></script>
+	 <script src="Bootstrap/js/calendar.js"></script>
+	 <script src="Bootstrap/js/calendarSchdule.js"></script>
 
 <div class="site-section" style="height:auto; padding:2em;">
       <div class="container" >

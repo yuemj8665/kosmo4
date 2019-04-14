@@ -29,7 +29,7 @@
 					<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 						<li class="has-children active">
 							<a href="index.kosmo">메인</a>
-							<ul class="dropdown">
+							 <ul class="dropdown">
 								<li><a href="kakaologin.kosmo">Menu One</a></li>
 								<li><a href="#">Menu Two</a></li>
 								<li><a href="#">Menu Three</a></li>
@@ -41,7 +41,7 @@
 										<li><a href="#">Menu Three</a></li>
 									</ul>
 								</li>
-							</ul>
+							</ul> 
 						</li>
 						<li class="has-children">
 							<a href="haircut.html">서비스</a>

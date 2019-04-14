@@ -93,10 +93,7 @@
 </script>
 
 <div class="site-section" style="height:auto; padding:2em;">
-      <div class="container" >
-       
-
-
+    <div class="container" >
 	<div id="wrap" class="memPage">
 		<div id="container" class="grayBg hasBtn memberJoin" tabindex="0">
 			<div class="pathDiv">
@@ -151,8 +148,9 @@
 								
 							</div>
 						</div>
-						<div>
-							휴대폰 번호 : <select id="txtMobile1" style="width: 100px">
+						<div class="teldiv">
+						<span>휴대폰 번호 : </span>
+							<select id="txtMobile1" style="width: 100px">
 								<option value="">::선택::</option>
 								<option value="011">011</option>
 								<option value="016">016</option>
@@ -183,11 +181,9 @@
 							
 						<!-- 제휴서비스 폼 -->	
 						<p class="joinTit2">제휴 서비스&nbsp;&nbsp;<small><small style="color:gray;">카풀과 베이비시터의 제휴서비스에 해당이 된다면 체크하세요</small></small></p>
-						
 						<div class="promotion">
-							<label>카풀 제휴 서비스 여부 <input id="checkbox1" type="checkbox" style="display: inline;"/> </label>
-							&nbsp;&nbsp;
-							<label>베이비시터 제휴 서비스 여부 <input id="checkbox2" type="checkbox" style="display: inline;"/></label>
+							<label>카풀 제휴 서비스 여부 <input id="checkbox1" type="checkbox" style="display: inline;"/></label>
+							<label>&nbsp;&nbsp;베이비시터 제휴 서비스 여부 <input id="checkbox2" type="checkbox" style="display: inline;"/></label>
 							<div class="text" id="dd1">
 									<div class="card text-white bg-success mb-3" style="outline: 1px black solid; margin-bottom: 10px;" >
 										<div class="card-header" style="text-align: center;" >카풀 관련 추가 입력칸입니다</div>
@@ -231,10 +227,6 @@
 				</div>
 			</div>
 		</div>
-		
-		
-
-
 	</div>
 </div> 
 
